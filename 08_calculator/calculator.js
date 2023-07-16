@@ -1,13 +1,13 @@
-const add = function() {
-	
+const add = function(a, b) {
+	return parseFloat(a) + parseFloat(b);
 };
 
-const subtract = function() {
-	
+const subtract = function(a, b) {
+	return parseFloat(a) - parseFloat(b);
 };
 
-const sum = function() {
-	
+const sum = function(numbersArr) {
+	return numbersArr.reduce((total, currentNumber) => total + currentNumber, 0);
 };
 
 const multiply = function() {
